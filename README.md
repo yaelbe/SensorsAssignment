@@ -20,4 +20,4 @@ The Map scren showes the live location, using Apple Maps.
 The Logs Screen showes the incoming location data. From the top bar, it's possible to export the data as CSV file, clean history
 and also stop logging.
 
-![Image description](https://github.com/yaelbe/SensorsAssignment/blob/master/screen/Screen%20Shot%202020-05-03%20at%201.33.01.png)
+![Image description](https://github.com/yaelbe/SensorsAssignment/blob/master/screen/Screen%20Shot%202020-05-03%20at%201.33.11.png)
