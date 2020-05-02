@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		4F240F1B245DBF4C002A1DC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F240F1A245DBF4C002A1DC7 /* AppDelegate.swift */; };
 		4F240F1D245DBF4C002A1DC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F240F1C245DBF4C002A1DC7 /* SceneDelegate.swift */; };
-		4F240F1F245DBF4C002A1DC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F240F1E245DBF4C002A1DC7 /* ViewController.swift */; };
 		4F240F22245DBF4C002A1DC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F240F20245DBF4C002A1DC7 /* Main.storyboard */; };
 		4F240F24245DBF4F002A1DC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F240F23245DBF4F002A1DC7 /* Assets.xcassets */; };
 		4F240F27245DBF4F002A1DC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F240F25245DBF4F002A1DC7 /* LaunchScreen.storyboard */; };
 		4F240F32245DBF50002A1DC7 /* SensorsAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F240F31245DBF50002A1DC7 /* SensorsAssignmentTests.swift */; };
 		4F240F3D245DBF50002A1DC7 /* SensorsAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F240F3C245DBF50002A1DC7 /* SensorsAssignmentUITests.swift */; };
+		4F240F4B245DC104002A1DC7 /* DataRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F240F4A245DC104002A1DC7 /* DataRow.swift */; };
+		4F240F4D245DC149002A1DC7 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F240F4C245DC149002A1DC7 /* CircularProgressBar.swift */; };
+		4F240F4F245DC171002A1DC7 /* LogsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F240F4E245DC171002A1DC7 /* LogsTableViewController.swift */; };
+		4F240F51245DC198002A1DC7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F240F50245DC198002A1DC7 /* MapViewController.swift */; };
+		4F240F53245DC1BB002A1DC7 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F240F52245DC1BB002A1DC7 /* DashboardViewController.swift */; };
+		4F240F55245DC1E3002A1DC7 /* LocationsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F240F54245DC1E3002A1DC7 /* LocationsStorage.swift */; };
+		4FF49AE4245DCD5D0036DC57 /* Route.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4FF49AE2245DCD5D0036DC57 /* Route.gpx */; };
+		4FF49AE5245DCD5D0036DC57 /* Route vom Airbnb zum Suncar Autoverleih.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4FF49AE3245DCD5D0036DC57 /* Route vom Airbnb zum Suncar Autoverleih.gpx */; };
+		4FF49AE7245DCF320036DC57 /* Motion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF49AE6245DCF320036DC57 /* Motion.swift */; };
+		4FF49AE9245E0AAC0036DC57 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF49AE8245E0AAC0036DC57 /* Queue.swift */; };
+		4FF49AEB245E19030036DC57 /* SensorsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF49AEA245E19030036DC57 /* SensorsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +48,6 @@
 		4F240F17245DBF4C002A1DC7 /* SensorsAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SensorsAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F240F1A245DBF4C002A1DC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F240F1C245DBF4C002A1DC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4F240F1E245DBF4C002A1DC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F240F21245DBF4C002A1DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F240F23245DBF4F002A1DC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F240F26245DBF4F002A1DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,17 @@
 		4F240F38245DBF50002A1DC7 /* SensorsAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensorsAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F240F3C245DBF50002A1DC7 /* SensorsAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsAssignmentUITests.swift; sourceTree = "<group>"; };
 		4F240F3E245DBF50002A1DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F240F4A245DC104002A1DC7 /* DataRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRow.swift; sourceTree = "<group>"; };
+		4F240F4C245DC149002A1DC7 /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+		4F240F4E245DC171002A1DC7 /* LogsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsTableViewController.swift; sourceTree = "<group>"; };
+		4F240F50245DC198002A1DC7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4F240F52245DC1BB002A1DC7 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		4F240F54245DC1E3002A1DC7 /* LocationsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsStorage.swift; sourceTree = "<group>"; };
+		4FF49AE2245DCD5D0036DC57 /* Route.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Route.gpx; sourceTree = "<group>"; };
+		4FF49AE3245DCD5D0036DC57 /* Route vom Airbnb zum Suncar Autoverleih.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Route vom Airbnb zum Suncar Autoverleih.gpx"; sourceTree = "<group>"; };
+		4FF49AE6245DCF320036DC57 /* Motion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion.swift; sourceTree = "<group>"; };
+		4FF49AE8245E0AAC0036DC57 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		4FF49AEA245E19030036DC57 /* SensorsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +99,8 @@
 		4F240F0E245DBF4C002A1DC7 = {
 			isa = PBXGroup;
 			children = (
+				4FF49AE3245DCD5D0036DC57 /* Route vom Airbnb zum Suncar Autoverleih.gpx */,
+				4FF49AE2245DCD5D0036DC57 /* Route.gpx */,
 				4F240F19245DBF4C002A1DC7 /* SensorsAssignment */,
 				4F240F30245DBF50002A1DC7 /* SensorsAssignmentTests */,
 				4F240F3B245DBF50002A1DC7 /* SensorsAssignmentUITests */,
@@ -101,11 +123,19 @@
 			children = (
 				4F240F1A245DBF4C002A1DC7 /* AppDelegate.swift */,
 				4F240F1C245DBF4C002A1DC7 /* SceneDelegate.swift */,
-				4F240F1E245DBF4C002A1DC7 /* ViewController.swift */,
 				4F240F20245DBF4C002A1DC7 /* Main.storyboard */,
 				4F240F23245DBF4F002A1DC7 /* Assets.xcassets */,
 				4F240F25245DBF4F002A1DC7 /* LaunchScreen.storyboard */,
 				4F240F28245DBF4F002A1DC7 /* Info.plist */,
+				4F240F4C245DC149002A1DC7 /* CircularProgressBar.swift */,
+				4F240F4E245DC171002A1DC7 /* LogsTableViewController.swift */,
+				4F240F50245DC198002A1DC7 /* MapViewController.swift */,
+				4F240F52245DC1BB002A1DC7 /* DashboardViewController.swift */,
+				4F240F54245DC1E3002A1DC7 /* LocationsStorage.swift */,
+				4F240F4A245DC104002A1DC7 /* DataRow.swift */,
+				4FF49AE6245DCF320036DC57 /* Motion.swift */,
+				4FF49AE8245E0AAC0036DC57 /* Queue.swift */,
+				4FF49AEA245E19030036DC57 /* SensorsManager.swift */,
 			);
 			path = SensorsAssignment;
 			sourceTree = "<group>";
@@ -233,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F240F27245DBF4F002A1DC7 /* LaunchScreen.storyboard in Resources */,
+				4FF49AE4245DCD5D0036DC57 /* Route.gpx in Resources */,
 				4F240F24245DBF4F002A1DC7 /* Assets.xcassets in Resources */,
+				4FF49AE5245DCD5D0036DC57 /* Route vom Airbnb zum Suncar Autoverleih.gpx in Resources */,
 				4F240F22245DBF4C002A1DC7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +291,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F240F1F245DBF4C002A1DC7 /* ViewController.swift in Sources */,
 				4F240F1B245DBF4C002A1DC7 /* AppDelegate.swift in Sources */,
+				4F240F53245DC1BB002A1DC7 /* DashboardViewController.swift in Sources */,
+				4F240F55245DC1E3002A1DC7 /* LocationsStorage.swift in Sources */,
+				4F240F51245DC198002A1DC7 /* MapViewController.swift in Sources */,
+				4FF49AE7245DCF320036DC57 /* Motion.swift in Sources */,
+				4FF49AEB245E19030036DC57 /* SensorsManager.swift in Sources */,
+				4FF49AE9245E0AAC0036DC57 /* Queue.swift in Sources */,
+				4F240F4B245DC104002A1DC7 /* DataRow.swift in Sources */,
 				4F240F1D245DBF4C002A1DC7 /* SceneDelegate.swift in Sources */,
+				4F240F4D245DC149002A1DC7 /* CircularProgressBar.swift in Sources */,
+				4F240F4F245DC171002A1DC7 /* LogsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
