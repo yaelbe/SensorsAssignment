@@ -11,7 +11,7 @@ The application supports DARK MODE.
 ## Dashboard
 The dashboard screen shows the speed and the accuracy of the location data
 
-![Image description](https://github.com/yaelbe/SensorsAssignment/blob/master/screen/Screen%20Shot%202020-05-03%20at%201.32.21.png)
+![Image description](https://github.com/yaelbe/SensorsAssignment/blob/master/screen/Screen%20Shot%202020-05-03%20at%202.15.10.png)
 ## Map Screen
 The Map scren showes the live location, using Apple Maps.
 
