@@ -19,7 +19,6 @@ class SensorsManager : NSObject, UNUserNotificationCenterDelegate{
     let locationManager = CLLocationManager()
     var timer : Timer = Timer()
     var gravityZ = Queue()
-    var notShow = true
     
     func config(){
         locationManager.requestAlwaysAuthorization()
@@ -64,19 +63,6 @@ extension SensorsManager : CLLocationManagerDelegate {
         }
         LocationsStorage.shared.saveDataOnDisk(location)
 
-        if notShow{
-            notShow = false
-            let content = UNMutableNotificationContent()
-                  content.title = "Gravity Z 📍"
-                  content.body = "The z - axis average value is above 4G"
-                  content.sound = UNNotificationSound.default
-                  
-                  let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
-                  let request = UNNotificationRequest(identifier: "\(Date().timeIntervalSince1970)", content: content, trigger: trigger)
-                  
-                  self.center.add(request, withCompletionHandler: nil)
-        }
-        
     }
 }
 
