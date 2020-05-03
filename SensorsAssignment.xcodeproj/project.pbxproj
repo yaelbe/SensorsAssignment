@@ -121,21 +121,16 @@
 		4F240F19245DBF4C002A1DC7 /* SensorsAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				4FF49AEE245EF27E0036DC57 /* ViewHelper */,
+				4FF49AEC245EF22F0036DC57 /* ViewControllers */,
+				4FF49AEF245EF29D0036DC57 /* Model */,
+				4FF49AF0245EF2EE0036DC57 /* Logic */,
 				4F240F1A245DBF4C002A1DC7 /* AppDelegate.swift */,
 				4F240F1C245DBF4C002A1DC7 /* SceneDelegate.swift */,
 				4F240F20245DBF4C002A1DC7 /* Main.storyboard */,
 				4F240F23245DBF4F002A1DC7 /* Assets.xcassets */,
 				4F240F25245DBF4F002A1DC7 /* LaunchScreen.storyboard */,
 				4F240F28245DBF4F002A1DC7 /* Info.plist */,
-				4F240F4C245DC149002A1DC7 /* CircularProgressBar.swift */,
-				4F240F4E245DC171002A1DC7 /* LogsTableViewController.swift */,
-				4F240F50245DC198002A1DC7 /* MapViewController.swift */,
-				4F240F52245DC1BB002A1DC7 /* DashboardViewController.swift */,
-				4F240F54245DC1E3002A1DC7 /* LocationsStorage.swift */,
-				4F240F4A245DC104002A1DC7 /* DataRow.swift */,
-				4FF49AE6245DCF320036DC57 /* Motion.swift */,
-				4FF49AE8245E0AAC0036DC57 /* Queue.swift */,
-				4FF49AEA245E19030036DC57 /* SensorsManager.swift */,
 			);
 			path = SensorsAssignment;
 			sourceTree = "<group>";
@@ -156,6 +151,43 @@
 				4F240F3E245DBF50002A1DC7 /* Info.plist */,
 			);
 			path = SensorsAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		4FF49AEC245EF22F0036DC57 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F240F52245DC1BB002A1DC7 /* DashboardViewController.swift */,
+				4F240F4E245DC171002A1DC7 /* LogsTableViewController.swift */,
+				4F240F50245DC198002A1DC7 /* MapViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4FF49AEE245EF27E0036DC57 /* ViewHelper */ = {
+			isa = PBXGroup;
+			children = (
+				4F240F4C245DC149002A1DC7 /* CircularProgressBar.swift */,
+			);
+			path = ViewHelper;
+			sourceTree = "<group>";
+		};
+		4FF49AEF245EF29D0036DC57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F240F4A245DC104002A1DC7 /* DataRow.swift */,
+				4FF49AE6245DCF320036DC57 /* Motion.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4FF49AF0245EF2EE0036DC57 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				4FF49AE8245E0AAC0036DC57 /* Queue.swift */,
+				4F240F54245DC1E3002A1DC7 /* LocationsStorage.swift */,
+				4FF49AEA245E19030036DC57 /* SensorsManager.swift */,
+			);
+			path = Logic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
