@@ -10,7 +10,7 @@ import Foundation
 
 public struct Queue {
     fileprivate var array = [Double]()
-    var sum  = 0.0
+    var average  = 0.0
     
     public var isEmpty: Bool {
         return array.isEmpty
@@ -23,10 +23,10 @@ public struct Queue {
     public mutating func enqueue(_ element: Double) {
         if array.count == 50{
             if let first = dequeue(){
-                sum += (element-first)/50
+                average += (element-first)/50
             }
         }else{
-            sum += element
+            average = (average*Double((array.count)) + element)/Double((array.count+1))
         }
         array.append(element)
     }

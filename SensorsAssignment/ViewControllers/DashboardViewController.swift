@@ -42,7 +42,7 @@ class DashboardViewController : UIViewController{
   
   @objc func newLocationAdded(_ notification: Notification) {
     guard let location = notification.userInfo?["Data"] as? DataRow else {return}
-    speed.setProgress(to: Int(location.speed*1.61))
+    speed.setProgress(to: Int(location.speed*3.6))
     accuracy.setProgress(to: Int(location.accuracy))
   }
 }

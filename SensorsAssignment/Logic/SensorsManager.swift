@@ -32,7 +32,7 @@ class SensorsManager : NSObject, UNUserNotificationCenterDelegate{
             motionManager.startDeviceMotionUpdates(to: queue){ [weak self](motion, error) in
                if let motion = motion{
                 self?.gravityZ.enqueue(motion.gravity.z)
-                    if self?.gravityZ.count == 50, let sum = self?.gravityZ.sum , sum >= 4{
+                    if self?.gravityZ.count == 50, let sum = self?.gravityZ.average , sum >= 4{
                         let content = UNMutableNotificationContent()
                         content.title = "Gravity Z 📍"
                         content.body = "The z - axis average value is above 4G"
